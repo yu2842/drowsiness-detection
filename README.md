@@ -58,8 +58,14 @@
 + **원하는 시간을 선택하고 start를 누르면 정해둔 시간이 다 지난 뒤 알람을 울릴 것인지 말지 선택할 수 있습니다.**
 
 ## GUI
-+ ##사용자가 편하게 사용할 수 있도록 GUI를 추가하였습니다.##
++ **사용자가 편하게 사용할 수 있도록 GUI를 추가하였습니다.**
++ **처음 시작**
 ![start](https://github.com/yu2842/sleep/assets/144086393/7b696aeb-d5b4-42d6-970a-ede08a7d4473)
+
++ **'Precaustions' 버튼을 누른 경우**
++ **'home' 버튼을 누르면 처음 시작으로 돌아갑니다.**
+
+
 ## Test
 + Before applying preprocessing
 + 전처리 전 시연 영상
