@@ -62,9 +62,6 @@
 + Calculated EAR
 <img src="https://user-images.githubusercontent.com/36785390/52702645-ee9c7200-2fbf-11e9-9757-975fa22da6e1.png" width="60%">
 
-+ The calculated EAR will have a value more than zero when the eyes are open, and a value close to zero when the eyes are closed.
-+ This program has **set a 50% value from the average EAR value to the threshold value**. So, 1) measures the average EAR value when the eyes are open, 2) measures the average EAR value when the driver is closing his eyes, and 3) sets the threshold using the above two results.
-+ .1) == 과정 1),   2) == 과정 2),   3) == 과정 3) (in drowsiness_detector code)
 + **계산된 EAR은 눈을 뜨고 있을 땐 0이 아닌 어떤 값을 갖게 되고, 눈을 감을 땐 0에 가까운 값**을 갖습니다. 여기에 어떤 Constant로 **Threshold**를(졸음운전을 판단할 때 사용하는 임곗값) 설정할 시 그 값보다 EAR 값이 작아지는지 확인하는 방식으로 운전자가 졸음운전 중이라는 것을 감지할 수 있습니다.
 + 추가로 졸음운전 판별 시 양쪽 눈을 따로 검사할 필요는 없기 때문에 양쪽 눈 각각의 EAR 값을 평균 계산해서 사용하였습니다.
 + **Threshold** 값은 눈을 가장 크게 떴을 때 EAR 값의 50%로 설정했습니다. 이보다 작을 때는(눈 크기가 작아졌을 때) 운전자가 졸린 상태인 것으로 판단, 운전자가 졸려 하는지에 관심을 뒀기 때문에 완전 수면에 빠지지 않더라도 알람이 울립니다.
