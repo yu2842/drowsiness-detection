@@ -41,8 +41,8 @@
 
 
 ## Drowsiness level selection
-+ 약 25프레임 동안 EAR 값이 Threshold보다 작으면 사용자가 졸고 있다고고 판단하도록 설정하였습니다. 
-+ 이 프로젝트에서는 졸그래프를 기준으로 실제 졸음 단계를 결정하기 위해서 지도 학습(Supervised Learning) 알고리즘 중 하나인 K-Nearest Neighbor(이하 KNN) 알고리즘을 사용하였습니다.
++ 약 25프레임 동안 EAR 값이 Threshold보다 작으면 사용자가 졸고 있다고 판단하도록 설정하였습니다. 
++ 이 프로젝트에서는 졸음그래프를 기준으로 실제 졸음 단계를 결정하기 위해서 지도 학습(Supervised Learning) 알고리즘 중 하나인 K-Nearest Neighbor(이하 KNN) 알고리즘을 사용하였습니다.
 
 + Drowsiness levels are identified by the following conditions.
   1. The first alarm will sound(approximately 0.9 seconds) between level 1 and 2 of the drowsy phase.
