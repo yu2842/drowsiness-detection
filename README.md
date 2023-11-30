@@ -67,14 +67,14 @@
 + **'precautions' 버튼을 누른 경우**
 + **해당 프로그램을 사용할때의 주의 사항이 적혀 있습니다.**
 + **'home' 버튼을 통해 처음 시작으로 돌아갈 수 있습니다**
-![pre](https://github.com/yu2842/practice1/assets/144086393/267d24f9-c1f7-4125-bcf5-1e1d0a42b3ab)
+<img width="50%" src="https://github.com/yu2842/practice1/assets/144086393/267d24f9-c1f7-4125-bcf5-1e1d0a42b3ab"/>
 
 
 
 + **'how to use' 버튼을 누른 경우**
 + **사용 할때 도움이 될 만한 것들이 적혀 있습니다.**
 + **'home' 버튼을 통해 처음 시작으로 돌아갈 수 있습니다.**
-![how](https://github.com/yu2842/practice1/assets/144086393/6018acfd-3a01-4161-8301-54bb1ddc0c41)
+<img width="50%" src="https://github.com/yu2842/practice1/assets/144086393/6018acfd-3a01-4161-8301-54bb1ddc0c41"/>
 
 
 
@@ -82,12 +82,12 @@
 + **'start' 버튼을 누를 경우 위에서 설명했던 Threshold 값을 얻는 작업을 수행합니다.**
 + **'start' 버튼을 누르기 전 'next' 버튼을 누르면 Threshold 값이 0으로 설정되므로 정상적인 졸음 판단을 할 수 없습니다.**
 + **Threshold 값을 결정 후 'next' 버튼을 누르면 timer로 이동합니다.**
-![set](https://github.com/yu2842/practice1/assets/144086393/c2e681c5-a603-42d2-b484-9debd24d9cc6)
+<img width="50%" src="https://github.com/yu2842/practice1/assets/144086393/c2e681c5-a603-42d2-b484-9debd24d9cc6"/>
 
 
 
 + **'timer' 버튼을 누르면 타이머가 뜹니다.**
-![timer](https://github.com/yu2842/practice1/assets/144086393/268681f3-e9ac-4301-8c25-35357ad3dfa6)
+<img width="50%" src="https://github.com/yu2842/practice1/assets/144086393/268681f3-e9ac-4301-8c25-35357ad3dfa6"/>
 
 
 
@@ -95,8 +95,8 @@
 +**원하시는 시간을 작성 후 'start' 버튼을 누르면 졸음 판단 작업을 수행합니다.**
 +**주의: 'pause' 버튼이나 'stop' 버튼을 누른 후 캠을 누르고 'q' 키를 눌러 졸음 판단 작업을 종료하셔야합니다.**
 +**졸음 판단 작업을 종료하지 않고 'start' 버튼을 다시 누르면 오류가 발생합니다.**
-![timer2](https://github.com/yu2842/practice1/assets/144086393/7dc69de1-a57d-4764-a5ed-3ce1bd0678e4)
-![yn](https://github.com/yu2842/practice1/assets/144086393/60702dbb-f821-4209-a1f9-a070e1b55f00)
+<img width="50%" src="https://github.com/yu2842/practice1/assets/144086393/7dc69de1-a57d-4764-a5ed-3ce1bd0678e4"/>
+<img width="50%" src="https://github.com/yu2842/practice1/assets/144086393/60702dbb-f821-4209-a1f9-a070e1b55f00"/>
 
 
 
