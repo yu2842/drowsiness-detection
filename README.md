@@ -59,7 +59,7 @@
 
 ## GUI
 + ##사용자가 편하게 사용할 수 있도록 GUI를 추가하였습니다.##
-
+![start](https://github.com/yu2842/sleep/assets/144086393/7b696aeb-d5b4-42d6-970a-ede08a7d4473)
 ## Test
 + Before applying preprocessing
 + 전처리 전 시연 영상
