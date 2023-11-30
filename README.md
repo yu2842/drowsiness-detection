@@ -39,7 +39,7 @@
 + 졸음 판별 시 양쪽 눈을 따로 검사할 필요는 없기 때문에 양쪽 눈 각각의 EAR 값을 평균 계산해서 사용하였습니다.
 + **Threshold 값은 프로그램 실행 시 눈을 떴을 때의 EAR 값(open_ear)과 눈을 감았을 때의 EAR 값(closed_ear)을 얻어 closed_ear+((open_ear-closed_ear)/2)라는 식을 통해 결정하였습니다.**
 + 설정한 Threshold 보다 작을 때는기 전까지 눈을 뜨고 있던 시간에 따라 구분되고, 졸음 2 -> 0으로 갈수록 알람의 세기는 세집니다.
-+   
+  
 . 1. Create arrays with random (x, y)-coordinates.
   
 <img src="https://user-images.githubusercontent.com/36785390/52762829-82bc1700-305c-11e9-97cb-b41e35dfb9e6.png" width="30%">
