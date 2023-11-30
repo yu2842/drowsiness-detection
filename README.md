@@ -115,6 +115,8 @@
 4. **해당 과정을 따르고 next 버튼을 누르면 timer로 이동합니다.**
 5. **timer 버튼을 누르면 시간을 정할 수 있고 start 버튼을 누르면 졸음 감지 기능을 수행 할 수 있습니다.**
 6. **start 버튼을 누르면 캠이 켜지는데, 이때 얼굴이 제대로 인식되고 있는지는 파란 네모와 초록 선, EAR 값을 보고 알 수 있습니다.
+
+   
    (사진은 그림으로 대체합니다.)
 
    
@@ -125,10 +127,6 @@
 9. **pause 버튼을 누르고 start 버튼을 누르면 정지되었던 타이머와 졸음 감지 기능이 다시 시작합니다.**
 10. **stop 버튼의 경우 타이머가 정지되며 이때 캠을 누른 후 q키를 눌러 졸음 감지 기능을 중지해야 합니다.** 
 
-  
-## Execution
-+ I run drowsiness_detector.ipynb just typing CTRL+ENTER.
-+ 전 jupyter notebook을 사용했기 때문에 일단 업로드 해두었습니다. 파이썬으로 실행하셔도 됩니다.
   
 ## References
 + [Machine Learning is Fun! Part 4: Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)
