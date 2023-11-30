@@ -44,21 +44,8 @@
 
   
 ## Drowsiness level selection
-+ Conditions :
-  1. 30 FPS
-  2. Prescribed speed : 100km/h, Retention distance between vehicles >= 100m
-  3. The time which takes a person to push the brakes 0.45 (response time) + 0.2 (brake pushing time) + 0.05 (time to start braking) = 0.7 seconds
-  4. The braking distance of a vehicle running at 100 km/h is 56 meters (the driver has 44 meters of free distance)
-  
-<img src="https://user-images.githubusercontent.com/36785390/52933285-2b88b000-3396-11e9-9e6d-d73dfb27c6de.png" width="50%">
-  
-+ Under the above conditions, the drivers has almost 0.9 seconds of free time (100km/h -> 27m/s == 1.63s of free time. 1.63 - 0.7 = 0.9 s).
-+ 30 FPS -> 27 frame = 0.9s.
-  + **if EAR < threshold for 27 frame? then going alarm off.**
-+ Now I separated the drowsiness phase into three steps.
-+ 위의 조건을 토대로 다음과 같이 계산할 수 있습니다. "100km/h로 달리는 차량이 앞차와 안전거리를 유지하고 있다고 가정할 시 정지 상태의 장애물과 충돌하지 않기 위해선 56m의 제동 구간이 필요하다. 즉, 운전자에겐 44m 정도의 여유 거리가 있는 것이다. 100km/h는 1초에 27m를 이동한다. 따라서 운전자에겐 1.63초의 여유 시간이 있다. 이 시간에서 브레이크를 밟는데 걸리는 반응 속도를 빼면 약 0.9초의 시간이 남는다."
-+ 결론적으로 졸음에 대한 감지와 그에 대한 조치는 눈을 감은 순간부터 약 0.9초쯤에 이루어져야 합니다. 30 FPS의 영상을 기준으로 0.9/0.033 = 약 27프레임이 되고, 졸음운전 방지 알람이 동작할 시간까지 계산하여 약 25프레임 동안 EAR 값이 Threshold보다 작으면 운전자가 졸음운전 중이라고 판단하도록 설정하였습니다. 
-+ 이 프로젝트에서는 졸음운전 상태를 감지하는 것을 넘어 졸음 수준을 세 단계로 분리했습니다.
++ 약 25프레임 동안 EAR 값이 Threshold보다 작으면 운전자가 졸음운전 중이라고 판단하도록 설정하였습니다. 
++ 이 프로젝트에서는 졸음 상태를 감지하는 것을 넘어 졸음 수준을 세 단계로 분리했습니다.
 
   
 <img src="https://user-images.githubusercontent.com/36785390/52762348-8058bd80-305a-11e9-9256-905e8de77740.png" width="45%">
