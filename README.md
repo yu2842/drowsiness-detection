@@ -195,3 +195,4 @@
 + [dlib install tutorial that I refer to](https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/)
 + [Histograms of Oriented Gradients for Human Detection](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
 + [조명(Lighting)의 영향을 제거하는 방법](https://t9t9.com/60)
++ [Drowsiness driving detection system with OpenCV & KNN](https://github.com/woorimlee/drowsiness-detection)
