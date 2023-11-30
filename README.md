@@ -38,7 +38,20 @@
 + 계산된 EAR은 눈을 뜨고 있을 땐 0이 아닌 어떤 값을 갖게 되고, 눈을 감을 땐 0에 가까운 값을 갖습니다. 여기에 어떤 Constant로 Threshold를(졸음을 판단할 때 사용하는 임곗값) 설정할 시 그 값보다 EAR 값이 작아지는지 확인하는 방식으로 사용자가 졸고 있다고 판단할 수 있습니다.
 + 졸음 판별 시 양쪽 눈을 따로 검사할 필요는 없기 때문에 양쪽 눈 각각의 EAR 값을 평균 계산해서 사용하였습니다.
 + **Threshold 값은 프로그램 실행 시 눈을 떴을 때의 EAR 값(open_ear)과 눈을 감았을 때의 EAR 값(closed_ear)을 얻어 closed_ear+((open_ear-closed_ear)/2)라는 식을 통해 결정하였습니다.**
-+ 설정한 Threshold 보다 작을 때는기 전까지 눈을 뜨고 있던 시간에 따라 구분되고, 졸음 2 -> 0으로 갈수록 알람의 세기는 세집니다.
+
+
+## Drowsiness level selection
++ 약 25프레임 동안 EAR 값이 Threshold보다 작으면 사용자가 졸고 있다고고 판단하도록 설정하였습니다. 
++ 이 프로젝트에서는 졸그래프를 기준으로 실제 졸음 단계를 결정하기 위해서 지도 학습(Supervised Learning) 알고리즘 중 하나인 K-Nearest Neighbor(이하 KNN) 알고리즘을 사용하였습니다.
+
++ Drowsiness levels are identified by the following conditions.
+  1. The first alarm will sound(approximately 0.9 seconds) between level 1 and 2 of the drowsy phase.
+  2. If you are dozing (sleeping and waking again and again) in less than 15 seconds, the drowsiness phase starts at level 1 and then the next alarm goes up to 0.
+  3. The first alarm is level 2 and the second alarm is level 1 and the third alarm makes level 0 sound when driving drowsy between 15 and 30 seconds.
+  4. If you have not been drowsy for more than 30 seconds, set level 2.
++ 졸음 단계는 눈을 감고 있는 시간과 졸음운전 전까지 눈을 뜨고 있던 시간에 따라 구분되고, 졸음 2 -> 0으로 갈수록 알람의 세기는 세집니다.
++ 설정한 Threshold 보다 작을 때 눈을 뜨고 있던 시간에 따라 구분되고, 졸음 2 -> 0으로 갈수록 알람의 세기는 세집니다.
+
   
 . 1. Create arrays with random (x, y)-coordinates.
   
@@ -102,19 +115,20 @@
  
 
 ## File Description
-1. 알람 소리
+1. **알람 소리**
    - alert_sound.wav
    - init_sound.mp3
    - nomal_alarm.wav
    - short_alarm.mp3
    - ok.wav
+   - power_alarm.wav
 
 
-2. 메인 코드(졸음 판단, 타이머, GUI 실행, EAR측정 등의 역할을 수행)
+2. **메인 코드(졸음 판단, 타이머, GUI 실행, EAR측정 등의 역할을 수행)**
    - eend.py
      
 
-3. QT designer로 만든 ui
+3. **QT designer로 만든 ui**
    - how.ui
    - main.ui
    - precautions.ui
@@ -122,28 +136,19 @@
    - ti.ui
 
 
-4. 영상에서 조명 영향을 받을 때 그 영향을 최소화하는 작업 수행
+4. **영상에서 조명 영향을 받을 때 그 영향을 최소화하는 작업 수행**
    - light_remover.py
 
 
-
-make_train_data.py
-
-
+5. **졸음 단계를 결정하기 위해서 지도 학습**
+   - make_train_data.py
 
 
+6. **졸음 단계에 따른 알람 소리 선택**
+   - ringing_alarm.py
 
-power_alarm.wav
-
-
-
-resources.qrc
-
-ringing_alarm.py
-
-
-
-shape_predictor_68_face_landmarks.dat
+7. **dlib에서 Face landmark estimation 기법을 사용하기 위한 자료**
+   - shape_predictor_68_face_landmarks.dat
 
 
 
