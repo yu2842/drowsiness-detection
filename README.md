@@ -1,20 +1,10 @@
-# Drowsiness detection system with OpenCV & KNN
-***  
+# Drowsiness detection
+***
+## Motive
+: 공부를 하는 도중 졸리거나 잠이 드는 상황은 딱히 반길만한 상황은 아닙니다. 누군가 옆에 있다면 깨워줄 수 있겠지만 혼자서 공부하는 경우 그 상황을 기대할 수는 없습니다. 커피를 마시는 거나 세수를 하는 등 졸음을 이겨내기 위한 행동을 할 수는 있지만 졸음을 이겨내는 것은 쉽지 않습니다. 따라서 졸음을 감지해 알람을 울리는 시스템이 있다면 졸음을 깨는데 도움이 될 것 같아 해당 프로그램을 제작하게 되었습니다.
 : 실시간 영상과 영상 처리 기술을 기반으로 운전자의 졸음 상태를 판별하고 졸음운전 중이라면 특정 수준에 따라 경고 알람이 울리게 하는 프로그램을 제작하였습니다. 실시간 Vision System에 운전자의 얼굴 및 안구 검출 기법, 조명 영향 제거에 따른 안구 오검출 제거 방법, 졸음 감지 기법, 지도 학습 알고리즘을 사용한 졸음 단계 판별법 등을 구현하였습니다. 
   
 ## Description
-: Based on the real-time Vision System, drivers' face and eye detection techniques were added, as well as **removing lighting effects** due to the eye detection false positives, drowsiness detection techniques, and **supervised learning algorithms** to identify drowsiness level.
-  
-The Histogram of Oriented Gradients technology and the learned Face Landmark estimation techniques were used to detect faces and eyes.
- 
-In order to eliminate the effects of lighting, **the light channels of the original images were separated and reversed, and then composed with the grayscale images of original images**. 
- 
-Furthermore the concept of **Eye Aspect Ratio was used** to detect drivers' drowsiness. 
-
-Finally, the **KNN algorithm was used** to divide the drivers' level of drowsiness into three stages, and differential alarms go off for each stages.
-
-Through these works, we could research and make technology of intelligent vehicle systems and vision computing, which is gaining much attention recently.
-  
 : 얼굴 및 안구 검출을 하기 위해 **Histogram of Oriented Gradients 기술과 학습된 Face landmark estimation 기법**을 사용하였습니다. **조명 영향을 제거하기 위해선 원본 영상의 조명 채널을 분리해 역 조명을 쏘아 Grayscale 된 이미지와 합쳐**주었고, 졸음 상태를 감지하기 위해선 **Eye Aspect Ratio**라는 개념을 사용하였습니다. 마지막으로 운전자의 **졸음 위험 수준을 세 단계로 나눠** 단계별로 차등 알람이 울리게 하였고, 단계를 나누는 과정에서 KNN 알고리즘을 사용했다.
     
 ***This code is in Python 3.6***
