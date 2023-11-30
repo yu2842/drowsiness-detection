@@ -129,7 +129,11 @@
 10. **stop 버튼의 경우 타이머가 정지되며 이때 캠을 누른 후 q키를 눌러 졸음 감지 기능을 중지해야 합니다.**
 11. **프로그램을 완전히 종료하기 위해 모든 창을 꺼주세요.**
 
-  
+
+## LICENSE
+**MIT
+**관련 정보는 LICENSE에서 확인**
+
 ## References
 + [Machine Learning is Fun! Part 4: Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)
 + [Real-Time Eye Blink Detection using Facial Landmarks](https://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf)
