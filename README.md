@@ -101,13 +101,28 @@
  
 
 
-## Test
-+ Before applying preprocessing
-+ 전처리 전 시연 영상
-[![BeforePreprocessing](https://img.youtube.com/vi/8yLHAP6gmOA/0.jpg)](https://www.youtube.com/watch?v=8yLHAP6gmOA)
-+ After applying preprocessing
-+ 전처리 후 시연 영상
-[![AfterPreprocessing](https://img.youtube.com/vi/7iCVzF3LI6o/0.jpg)](https://www.youtube.com/watch?v=7iCVzF3LI6o)
+## Process
+1. **처음 시작하는 경우 precautions 버튼과 how to use 버튼을 눌러 주의 사항과 사용법을 익힙니다.**
+2. **사용 법을 알고 있거나 익혔을 경우 start 버튼을 누릅니다.**
+3. **버튼을 누르면 Setting 창이 뜹니다. 다음과 같은 사항이 적혀 있습니다.**
+----
+   **눈이 닫혔는지를 판단하기 위해 EAR 값을 측정해야 합니다.**
+   **준비가 되셨다면 start 버튼을 눌러주세요.**
+   **3초후 알람이 울립니다.**
+   **다시 알람이 울릴때까지 3초 동안 눈을 뜨고 있어주세요.**
+   **3초 후 알람이 울리면 5초 대기 후 다시 알람이 울릴때까지 5초 동안 눈을 감고 있어주세요.**
+   **다시 알람이 울리면 EAR 값 측정은 끝났습니다.**
+   **next 버튼을 눌러 drowsiness detection을 시작하세요.**
+----
+4. **해당 과정을 따르고 next 버튼을 누르면 timer로 이동합니다.**
+5. **timer 버튼을 누르면 시간을 정할 수 있고 start 버튼을 누르면 졸음 감지 기능을 수행 할 수 있습니다.**
+6. **start 버튼을 누르면 캠이 켜지는데, 이때 얼굴이 제대로 인식되고 있는지는 파란 네모와 초록 선, EAR 값을 보고 알 수 있습니다.
+   (사진은 그림으로 대체합니다.)
+   <img width="50%" src="https://github.com/yu2842/practice1/assets/144086393/5d4a05f5-c78f-421d-8551-202569042ddb"/>
+ 
+8. **pause 버튼의 경우 타이머가 일시 정지되며 이때 캠을 누른 후 q키를 눌러 졸음 감지 기능을 중지해야 합니다.**
+9. **pause 버튼을 누르고 start 버튼을 누르면 정지되었던 타이머와 졸음 감지 기능이 다시 시작합니다.**
+10. **stop 버튼의 경우 타이머가 정지되며 이때 캠을 누른 후 q키를 눌러 졸음 감지 기능을 중지해야 합니다.** 
 
   
 ## Execution
