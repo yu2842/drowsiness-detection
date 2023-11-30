@@ -63,7 +63,7 @@
 <img width="50%" src="https://github.com/yu2842/sleep/assets/144086393/7b696aeb-d5b4-42d6-970a-ede08a7d4473"/>
 
 
-<br/>+ **'precautions' 버튼을 누른 경우**
+<br/>+ **precautions 버튼을 누른 경우**
 + **해당 프로그램을 사용할때의 주의 사항이 적혀 있습니다.**
 + **home 버튼을 통해 처음 시작으로 돌아갈 수 있습니다**
 <img width="50%" src="https://github.com/yu2842/practice1/assets/144086393/267d24f9-c1f7-4125-bcf5-1e1d0a42b3ab"/>
