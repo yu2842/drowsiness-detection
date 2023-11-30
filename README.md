@@ -14,14 +14,10 @@
 
 ## Extracting face and eye region
 + 그레이스케일링 한 이미지에서 얼굴을 찾기 위해 **HOG face pattern**을 사용했습니다.
-  
-<img src="https://user-images.githubusercontent.com/36785390/52613168-3b088480-2ed0-11e9-8651-97afc34f4bae.png" width="60%">
    
 + Face Landmark Estimation 알고리즘을 사용해 얼굴의 68개 랜드마크를 찾아냈습니다.
   
 <img src="https://user-images.githubusercontent.com/36785390/52613175-3d6ade80-2ed0-11e9-9290-ee5dc2f2d525.png" width="30%">
-<img src="https://user-images.githubusercontent.com/36785390/52613176-3f34a200-2ed0-11e9-8f3f-94998fd2ab63.png" width="30%">
-  
 
 
 ## Preprocessing
