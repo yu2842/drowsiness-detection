@@ -1,7 +1,5 @@
-# Drowsiness driving detection system with OpenCV & KNN
-***
-: In this repository, a program was developed to **identify the driver's drowsiness based on real-time camera image and image processing techniques**, and this program makes warning alarms go off for each level of drowsiness when it detects drowsiness driving.
-  
+# Drowsiness detection system with OpenCV & KNN
+***  
 : 실시간 영상과 영상 처리 기술을 기반으로 운전자의 졸음 상태를 판별하고 졸음운전 중이라면 특정 수준에 따라 경고 알람이 울리게 하는 프로그램을 제작하였습니다. 실시간 Vision System에 운전자의 얼굴 및 안구 검출 기법, 조명 영향 제거에 따른 안구 오검출 제거 방법, 졸음 감지 기법, 지도 학습 알고리즘을 사용한 졸음 단계 판별법 등을 구현하였습니다. 
   
 ## Description
