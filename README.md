@@ -196,3 +196,4 @@
 + [Histograms of Oriented Gradients for Human Detection](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
 + [조명(Lighting)의 영향을 제거하는 방법](https://t9t9.com/60)
 + [Drowsiness driving detection system with OpenCV & KNN](https://github.com/woorimlee/drowsiness-detection)
++ [효율적인 공부방법, 어떻게 공부해야 할까?](http://www.hcnews.or.kr/news_gisa/gisa_view.htm?gisa_category=02010300&gisa_idx=10103)
