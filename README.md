@@ -8,36 +8,7 @@
     
 ## System diagram
  
-<img src="https://user-images.githubusercontent.com/36785390/52612113-b61b6c00-2ecb-11e9-90f2-da6a51e00a7d.png" width="40%">
-    
-    
-Get face images from the camera -> Grayscaling -> Light processing -> HOG & find face -> Face Landmark Estimation -> Detect drowsiness driving. 
-   
-+ In detail
 
-<img src="https://user-images.githubusercontent.com/36785390/52612116-ba478980-2ecb-11e9-9851-0e037d0db792.png" width="80%">
-  
-0 : The filming.
-  
-10 : Lightness preprocessing.
-  
-100 : Detecting drowsiness.
-  
-110 : Getting face's image.
-  
-120 : Finding eyes region.
-  
-130 : Determining the value of the EAR normally.
-  
-140 : Determining drowsiness driving.
-  
-141 : Calculating the value of the EAR.
-   
-142 : Calculating the amount of time eyes are closed.
-    
-143 : Calculating the amount of time eyes are opened.
-    
-144 : Determining the level of the drowsiness.
 
 
 
