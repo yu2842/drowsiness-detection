@@ -86,9 +86,9 @@
 <img width="50%" src="https://github.com/yu2842/practice1/assets/144086393/268681f3-e9ac-4301-8c25-35357ad3dfa6"/>
 
 
-+**HH:MM:TT**
-+**원하시는 시간을 작성 후 start 버튼을 누르면 졸음 판단 작업을 수행합니다.**
-+**주의: pause 버튼이나 stop 버튼을 누른 후 캠을 누르고 'q' 키를 눌러 졸음 판단 작업을 종료하셔야합니다.**
++**HH:MM:TT**  
++**원하시는 시간을 작성 후 start 버튼을 누르면 졸음 판단 작업을 수행합니다.**  
++**주의: pause 버튼이나 stop 버튼을 누른 후 캠을 누르고 'q' 키를 눌러 졸음 판단 작업을 종료하셔야합니다.**  
 +**졸음 판단 작업을 종료하지 않고 start 버튼을 다시 누르면 오류가 발생합니다.**
 <img width="50%" src="https://github.com/yu2842/practice1/assets/144086393/7dc69de1-a57d-4764-a5ed-3ce1bd0678e4"/>
 <img width="50%" src="https://github.com/yu2842/practice1/assets/144086393/60702dbb-f821-4209-a1f9-a070e1b55f00"/>
