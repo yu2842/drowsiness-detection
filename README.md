@@ -46,7 +46,14 @@
 ## Drowsiness level selection
 + 약 25프레임 동안 EAR 값이 Threshold보다 작으면 운전자가 졸음운전 중이라고 판단하도록 설정하였습니다. 
 + 이 프로젝트에서는 졸그래프를 기준으로 실제 졸음 단계를 결정하기 위해서 지도 학습(Supervised Learning) 알고리즘 중 하나인 K-Nearest Neighbor(이하 KNN) 알고리즘을 사용하였습니다.
-  
+
++ Drowsiness levels are identified by the following conditions.
+  1. The first alarm will sound(approximately 0.9 seconds) between level 1 and 2 of the drowsy phase.
+  2. If you are dozing (sleeping and waking again and again) in less than 15 seconds, the drowsiness phase starts at level 1 and then the next alarm goes up to 0.
+  3. The first alarm is level 2 and the second alarm is level 1 and the third alarm makes level 0 sound when driving drowsy between 15 and 30 seconds.
+  4. If you have not been drowsy for more than 30 seconds, set level 2.
++ 졸음 단계는 눈을 감고 있는 시간과 졸음운전 전까지 눈을 뜨고 있던 시간에 따라 구분되고, 졸음 2 -> 0으로 갈수록 알람의 세기는 세집니다.
++   
 . 1. Create arrays with random (x, y)-coordinates.
   
 <img src="https://user-images.githubusercontent.com/36785390/52762829-82bc1700-305c-11e9-97cb-b41e35dfb9e6.png" width="30%">
