@@ -57,9 +57,6 @@
 + **미시간 대학의 연구에 따르면, 공부를 집중할 수 있는 효과적인 시간은 25분이라고 합니다. 이를 볼 때 공부를 하는 데 있어 일정 시간을 정해두고 공부를 한 뒤 휴식을 취하고 다시 시작하는 것이 좋다고 생각되어 타이머를 추가하게 되었습니다.**
 + **원하는 시간을 선택하고 start를 누르면 정해둔 시간이 다 지난 뒤 알람을 울릴 것인지 말지 선택할 수 있습니다.**
 
-  
-## Synthesis
-<img src="https://user-images.githubusercontent.com/36785390/52762972-36bda200-305d-11e9-99a6-314dfae8f3c7.png" width="50%">
 
 ## Test
 + Before applying preprocessing
