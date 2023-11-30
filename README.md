@@ -101,6 +101,53 @@
 <img width="50%" src="https://github.com/yu2842/practice1/assets/144086393/60702dbb-f821-4209-a1f9-a070e1b55f00"/>
  
 
+## File Description
+1. 알람 소리
+   - alert_sound.wav
+   - init_sound.mp3
+   - nomal_alarm.wav
+   - short_alarm.mp3
+   - ok.wav
+
+
+2. 메인 코드(졸음 판단, 타이머, GUI 실행, EAR측정 등의 역할을 수행)
+   - eend.py
+     
+
+3. QT designer로 만든 ui
+   - how.ui
+   - main.ui
+   - precautions.ui
+   - set.ui
+   - ti.ui
+
+
+4. 영상에서 조명 영향을 받을 때 그 영향을 최소화하는 작업 수행
+   - light_remover.py
+
+
+
+make_train_data.py
+
+
+
+
+
+power_alarm.wav
+
+
+
+resources.qrc
+
+ringing_alarm.py
+
+
+
+shape_predictor_68_face_landmarks.dat
+
+
+
+
 
 ## Process
 1. **처음 시작하는 경우 precautions 버튼과 how to use 버튼을 눌러 주의 사항과 사용법을 익힙니다.**
