@@ -201,3 +201,4 @@
 + [Drowsiness driving detection system with OpenCV & KNN](https://github.com/woorimlee/drowsiness-detection)
 + [효율적인 공부방법, 어떻게 공부해야 할까?](http://www.hcnews.or.kr/news_gisa/gisa_view.htm?gisa_category=02010300&gisa_idx=10103)
 + [[PyQt5] 다중 화면을 띄워보자! - ModalWindow](https://dibrary.tistory.com/17)
++ [[PyQt5] 타이머(Timer) 사용하기](http://www.gisdeveloper.co.kr/?p=8345)
