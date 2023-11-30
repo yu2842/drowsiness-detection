@@ -131,7 +131,7 @@
 
 
 ## LICENSE
-**MIT
+**MIT**
 **관련 정보는 LICENSE에서 확인**
 
 ## References
